@@ -1,0 +1,6 @@
+func ReverseSeq(n int) (result []int) { 
+  for i := n; i > 0; i-- {
+    result = append(result, i)
+  }
+  return
+}
